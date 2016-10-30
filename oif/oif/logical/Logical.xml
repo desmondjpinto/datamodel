@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="12E6CB3E-8FEF-B080-9E2B-38F4D5284C28" mainViewID="D895FCBD-5AA5-3D8C-C70C-6AA0E39FF664">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:06:59 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

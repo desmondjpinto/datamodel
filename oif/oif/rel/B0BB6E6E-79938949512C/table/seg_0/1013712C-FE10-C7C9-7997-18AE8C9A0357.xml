@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1013712C-FE10-C7C9-7997-18AE8C9A0357" schemaObject="97D71783-D083-2DB6-9693-9E95D29CCA8A" name="DIM_ORGANIZATION">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<commentInRDBMS>Organizations within the company</commentInRDBMS>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>2B6669EE-B3AE-A122-E642-E9EF09DA4B4B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DIM_ORGANIZATION_KEY" id="3079436F-9202-4E79-0EDB-DDA8B2793404">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>10542572-7A5C-4BD1-5928-7F4B7E772B04</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FA697EC8-490D-E65C-9610-EDD9CA9983D1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORG_CD" id="9A31C3F0-0D33-04A0-C7B6-289FD32C7210">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>D4EF6D35-FB03-CFC5-EAAA-8817C4A052C6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5FDB39F7-8C14-6822-7294-19FB93647E95</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUDIT_INS_KEY" id="530B216E-D0C5-8C50-82BB-D3F98C2F4D9A">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>4E0413F3-5983-B83F-13CB-DA40994D28DB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FA697EC8-490D-E65C-9610-EDD9CA9983D1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUDIT_INS_TS" id="1CFB6179-6BE4-A1E1-ACEC-7FD61C9927F8">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>70DA1267-1B5B-63D2-46F3-4422D40FD25C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>93AD977B-2ED9-4988-A569-98E7DA8E9563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUDIT_UPD_KEY" id="3E087E87-6F2D-5136-AC09-207585C1ADC4">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>01DF5CAE-D1B6-23C3-0822-486E6ADBE872</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FA697EC8-490D-E65C-9610-EDD9CA9983D1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUDIT_UPD_TS" id="CC9FD92D-6175-6BBB-83B0-49DCA58568FF">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>A190C5AE-618F-0E67-D3EC-EF1F2946761D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>93AD977B-2ED9-4988-A569-98E7DA8E9563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORG_DESC" id="50A266F5-2C14-44BA-3009-8752DF446A65">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>918E0FEE-E161-6F7C-567A-E14BBAF7113F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1E549014-8DCA-46C7-4B14-8811EB8BAF7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORG_TYPE" id="65BC14A2-8EA3-E47A-F38C-260376BBA115">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>5173151F-3376-15D7-4C9E-2FC3FCE83C2C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF0E04F1-7F65-0456-2218-B5C3C4D87450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DC54379-94A5-6DF0-AB3A-4ECB970BF3FE" name="DIM_ORGANIZATION_pk">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>AD439AFF-0995-E6B3-6E7B-DB8D763ECC7A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3079436F-9202-4E79-0EDB-DDA8B2793404"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

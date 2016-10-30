@@ -1,0 +1,248 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="260B72E4-37B4-4BCC-E5D8-B3363228422D" schemaObject="97D71783-D083-2DB6-9693-9E95D29CCA8A" name="STG_OIF_ACTUAL_PLAN_FRCST">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>9EB3C831-B4FA-5E83-8F3E-6BD1B5077106</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="METRIC_CD" id="871F54EB-10CC-663A-4E51-9FE6B59260C1">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>448B15B5-C29F-0FE3-2C37-6BC0F304296B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>468F3080-A2E5-A0CB-D4B2-D08ACF738A70</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METRIC_SRC_CD" id="D2576C9E-E565-A1F4-D819-B51A4C0C12D8">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>DF5930AA-7EDF-DBBA-B31E-AE562758B355</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>468F3080-A2E5-A0CB-D4B2-D08ACF738A70</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METRIC_RPT_DT" id="668F7CA3-AD72-FF2A-4963-16559CAAE85B">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>B6A60376-74FB-37CB-E282-E1C3F969777F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>93AD977B-2ED9-4988-A569-98E7DA8E9563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METRIC_AS_OF_DT" id="520E9881-FC49-B9C0-A283-4546326CB771">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>0E0559EF-9F8B-4FA3-C2CD-4A23E633DF4F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>93AD977B-2ED9-4988-A569-98E7DA8E9563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORG_CD" id="5717FC4A-4F13-979C-E030-A5F0BBA3574A">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>DFCFF4AD-FEA4-FA0E-73D3-94AB4AB32486</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF0E04F1-7F65-0456-2218-B5C3C4D87450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_CD" id="DDE33042-82A9-3F1D-F787-B3BDE77711D5">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>02AF4FA1-581A-8A37-6AE8-298BCAE573C7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF0E04F1-7F65-0456-2218-B5C3C4D87450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMUNITY_CD" id="0FA2D665-34B6-5B9D-F4EF-8A7B1C351863">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>B854B4CA-8771-AE97-BD30-60718198319B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>468F3080-A2E5-A0CB-D4B2-D08ACF738A70</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGGREGATION_LVL" id="5B291405-2C3E-2FEF-340C-93BB217064EA">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>B9E25FB5-E0E3-CFDB-AC94-5117EC68F84C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>468F3080-A2E5-A0CB-D4B2-D08ACF738A70</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTUAL_VAL" id="AF1E1EBE-60B3-530B-E2AD-85B953C1EEBB">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>F1F34B5A-5741-E2C1-432F-674C6070A6C1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F35BBAD6-DFA1-A0C7-46C7-C5DD916EC7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAN_VAL" id="8FCEA7D2-5615-033F-8921-9452463448A3">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>0C4D0FE0-7105-D8C5-AA2E-39808F560E61</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F35BBAD6-DFA1-A0C7-46C7-C5DD916EC7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FORECAST_VAL" id="BB802FA7-4A90-4A1B-C03D-B95833F07CB5">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>884F6F88-F879-F0E9-030B-30E494947C2F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F35BBAD6-DFA1-A0C7-46C7-C5DD916EC7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIOR_YEAR_VAL" id="E23A8BD8-69E6-C7C8-9D16-B70F90D69598">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>1D73CC65-E06B-5B6A-8396-2DE1C8E4DBCA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F35BBAD6-DFA1-A0C7-46C7-C5DD916EC7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURRENT_ESTIMATE" id="0F86C92C-71EA-780C-7F70-0ACCD3C396C6">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>A3BE885C-4081-1B5F-4D73-5036B1BBD943</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F35BBAD6-DFA1-A0C7-46C7-C5DD916EC7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUDIT_INS_KEY" id="B52D0E9E-FEFA-CFB8-250C-7F474A54CC46">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>6D739F14-9E53-2353-9CB8-A70476C9CCCA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F35BBAD6-DFA1-A0C7-46C7-C5DD916EC7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUDIT_INS_DATE" id="E2C48529-CA9F-4833-A7E7-725C7F5FFCCF">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>2C5A804B-057F-2968-4E01-3825CEFDE783</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>93AD977B-2ED9-4988-A569-98E7DA8E9563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUDIT_UPD_KEY" id="F3CDFC66-D062-7AB0-7C92-5DCD843883B6">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>31911617-E3C4-4793-1E85-66DFB5FE0ED3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F35BBAD6-DFA1-A0C7-46C7-C5DD916EC7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUDIT_UPD_DATE" id="D7492BD6-3F29-E521-5CE3-CD77282DDFD9">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>844E6748-5E85-F241-0192-659FB3B9F177</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>93AD977B-2ED9-4988-A569-98E7DA8E9563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B39129D-716B-4E91-6A96-427DB7E8EAD9" name="STG_OIF_ACTUAL_PLAN_FRCST_pk">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>ACFD8877-C829-CA36-D19E-58D07A0B6103</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="871F54EB-10CC-663A-4E51-9FE6B59260C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

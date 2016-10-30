@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="OIFDATA" id="0057FD1E-9295-D0D6-25FA-D26C19497C80">
+<createdBy>dpinto</createdBy>
+<modifiedBy>dpinto</modifiedBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<generatorId>5A6EAD8A-C9D8-1575-036E-05DB268859D1</generatorId>
+<importedid>5A6EAD8A-C9D8-1575-036E-05DB268859D1</importedid>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="02548D42-C57F-1453-ACB7-3AA0288971E9" otype="Table" vid="32EC37B1-9B86-ABEA-449A-B997DCC9B456">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="638" y="1205" width="374" height="278"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="1013712C-FE10-C7C9-7997-18AE8C9A0357" otype="Table" vid="89FD838E-0387-9618-C918-65317B3ACD44">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="493" y="20" width="282" height="148"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="260B72E4-37B4-4BCC-E5D8-B3363228422D" otype="Table" vid="5677DC8A-29BD-3D21-3F21-ADD798C4C957">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="1893" width="263" height="265"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="2F3E9CEF-F5CA-B88D-49E4-EE52451BBEC2" otype="Table" vid="B2314DB3-C0A5-3104-5661-E89C99120721">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="468" width="284" height="557"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="58554177-4995-119E-6348-43E0085E285A" otype="Table" vid="BD1549D8-5021-3F25-A937-D992BD68A547">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="304" y="1205" width="284" height="538"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="6137DB80-70D3-AF37-B506-9EC385F1CE41" otype="Table" vid="95D98F11-0F70-B331-8BE2-0B8C7D476E26">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="20" width="393" height="388"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="D5F40BA6-85EB-8B97-C12D-14119E179B85" otype="Table" vid="0448E578-495D-22DE-21E0-B96C2DBEB0CA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="1205" width="234" height="213"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="FF6D9523-F6F8-C8C2-225C-9F7573DA9AFA" otype="Table" vid="331F0DFD-2CE7-0449-C05C-18AB1093B402">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="493" y="188" width="248" height="200"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="82806B6B-5634-5076-5071-16C70D80D9B3" otype="FKIndexAssociation" vid_source="89FD838E-0387-9618-C918-65317B3ACD44" vid_target="95D98F11-0F70-B331-8BE2-0B8C7D476E26">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="CF429B00-2F3F-D4DE-3961-D67337B1833B" otype="FKIndexAssociation" vid_source="B2314DB3-C0A5-3104-5661-E89C99120721" vid_target="95D98F11-0F70-B331-8BE2-0B8C7D476E26">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="D49F4940-D9A1-B04F-8EED-45D1643E3B47" otype="FKIndexAssociation" vid_source="331F0DFD-2CE7-0449-C05C-18AB1093B402" vid_target="95D98F11-0F70-B331-8BE2-0B8C7D476E26">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+</Connector>
+</connectors>
+</Diagram>

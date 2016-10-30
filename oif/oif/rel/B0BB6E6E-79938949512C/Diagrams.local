@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="93232F49-12D5-8547-AF6D-D3BFF87690E0" name="Relational_1" visible="true"/>
+   <object objectType="sub_view" objectID="0057FD1E-9295-D0D6-25FA-D26C19497C80" name="OIFDATA" visible="false"/>
+   <object objectType="sub_view" objectID="F5DA9E47-25C9-571A-A16F-CCAAA24BFFAC" name="SV_noschema" visible="false"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

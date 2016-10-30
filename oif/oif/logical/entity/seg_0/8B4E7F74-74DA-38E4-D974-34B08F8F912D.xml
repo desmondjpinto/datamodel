@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B4E7F74-74DA-38E4-D974-34B08F8F912D" name="DIM ORGANIZATION">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<commentInRDBMS>Organizations within the company</commentInRDBMS>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>CF3D926E-AB88-63D3-B0B8-0401B6C99437</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DIM ORGANIZATION KEY" id="23DF049C-4BBA-5A4C-F6CE-CD36848950DB">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>672AC051-3702-C99A-3BCF-8284BAB10722</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FA697EC8-490D-E65C-9610-EDD9CA9983D1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORG CD" id="1F1BEF34-1EF5-C407-A14F-09B80A57D75C">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>2AC7BAF0-4149-CEDE-9C18-817323CE14E6</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5FDB39F7-8C14-6822-7294-19FB93647E95</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUDIT INS KEY" id="7F1C1B7E-E87F-090B-424A-071257716AC3">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>41766342-5F0B-4D61-D25E-C47D86F3FA54</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FA697EC8-490D-E65C-9610-EDD9CA9983D1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUDIT INS TS" id="675EE799-014C-61A3-716F-13DAF84CF80C">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>54D24A5A-32B6-BFA7-B827-811918439D4D</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>93AD977B-2ED9-4988-A569-98E7DA8E9563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUDIT UPD KEY" id="DF9B70DC-2714-A3B6-89E5-8B8C79B59F41">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>4EC48447-CD18-626E-0CB3-796E0449D519</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FA697EC8-490D-E65C-9610-EDD9CA9983D1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUDIT UPD TS" id="133B48ED-0CC8-1302-832A-2311CC0484AE">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>5DC619E8-2C19-1312-3061-DC85765A729E</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>93AD977B-2ED9-4988-A569-98E7DA8E9563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORG DESC" id="7450921F-41CF-EB61-0A26-D066A62D53FF">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>4F42C77B-CABC-D9FC-C223-06C17CE69785</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1E549014-8DCA-46C7-4B14-8811EB8BAF7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORG TYPE" id="E06C2AAE-83A1-AAAF-02D4-17D2F1F71E6D">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>8675904A-245C-835D-C554-349BF0E34A38</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF0E04F1-7F65-0456-2218-B5C3C4D87450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0326FECF-0E74-6F83-F616-827891400304" name="DIM ORGANIZATION pk">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>A9C12595-06C6-0149-504A-93385B2898CB</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>23DF049C-4BBA-5A4C-F6CE-CD36848950DB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

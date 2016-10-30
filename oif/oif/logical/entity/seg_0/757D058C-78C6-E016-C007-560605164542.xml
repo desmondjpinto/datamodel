@@ -1,0 +1,569 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="757D058C-78C6-E016-C007-560605164542" name="DW METRIC">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>E82998ED-9DA5-9B5F-776B-FEFD74D01089</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DW METRIC KEY" id="DE2BB281-880B-E465-DDF3-02961FF5B8BB">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<commentInRDBMS>Surrogate key for this table</commentInRDBMS>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>6C78C513-FE36-DF85-2967-6AFF3EFE9EA1</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F35BBAD6-DFA1-A0C7-46C7-C5DD916EC7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="METRIC CD" id="9D45E2B8-F5B9-ABFA-0E2E-9DED01B488D1">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<commentInRDBMS>Metric Code which can contain values like X, Y, Z, etc</commentInRDBMS>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>9FDF6678-399A-51E3-D0D1-E31E4F469EE8</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>468F3080-A2E5-A0CB-D4B2-D08ACF738A70</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="METRIC CATG CD" id="541A8134-2FEE-2BD0-3D83-F47E2F62E9A2">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<commentInRDBMS>Categories would be as follows like HR, SALES, SHAREHOLDER, EXPENSES etc</commentInRDBMS>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>4938C14C-1852-22C0-DAF5-CE2904018682</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>468F3080-A2E5-A0CB-D4B2-D08ACF738A70</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REC START DT" id="88C3A975-C133-A40F-B357-DAB440421AFC">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>8144EDB1-991B-7A88-14F7-14404061EF36</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>93AD977B-2ED9-4988-A569-98E7DA8E9563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REC END DT" id="B2DBB5BB-3974-A02E-43F4-05AEA431FAF8">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>1568FB76-BDA9-C585-4807-5CF40D43CB31</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>93AD977B-2ED9-4988-A569-98E7DA8E9563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUDIT INS KEY" id="9800DF19-A73B-6F84-E954-E39165D028B9">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>B2C77995-3B9A-516D-DEBD-AC8D8605A046</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F35BBAD6-DFA1-A0C7-46C7-C5DD916EC7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUDIT INS DATE" id="9FC2276F-BA1E-8DBD-5A8D-BE90DB9E08B5">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>CA9B55E4-0BA4-FF2F-BF10-40ABE2E42242</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>93AD977B-2ED9-4988-A569-98E7DA8E9563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUDIT UPD KEY" id="0C458DE5-2EDF-C1F1-2B6A-1681BB960A06">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>840BEC06-ACF9-E008-0BA7-5FB1B9C0E34C</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F35BBAD6-DFA1-A0C7-46C7-C5DD916EC7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUDIT UPD DATE" id="544DBC6A-78A3-87C3-50E6-40EA17F5688A">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>ADAA09CC-A66D-4A41-CB76-371573416B2F</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>93AD977B-2ED9-4988-A569-98E7DA8E9563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="METRIC DESC" id="64E36BB2-770F-F451-A96A-A103EB744C8D">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>6FB66D07-ED0A-B084-2F21-0F7CCCC79F8D</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BA4D766E-15AA-1EA9-3185-2144D90F3102</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ACTIVE IND" id="90B271C1-C743-648F-3036-13AE9300F8AA">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>78D14172-3F13-5811-514D-B9B33E7CFAF0</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>468168B6-151C-EC16-9747-EB434D009B45</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REFRESH FREQ CD" id="FECDCECE-8EDD-D38A-F35D-DF2A10C2C4A5">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>E98297F5-8601-ECE4-5A06-24AABFC3FDD3</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF0E04F1-7F65-0456-2218-B5C3C4D87450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REFRESH FREQ NUM" id="BADF7812-15B1-C123-DCF4-BFD1ED077EEB">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>3FD8D511-54C4-5634-8180-AE86B71C0CBC</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F35BBAD6-DFA1-A0C7-46C7-C5DD916EC7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUMULATIVE IND" id="DDD48A6D-A8CA-AF58-D090-A23B8BF231BF">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>A090CAFE-618E-CA3F-F195-D1DCBE10B287</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F35BBAD6-DFA1-A0C7-46C7-C5DD916EC7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="METRIC OWNER" id="9D26458A-1AEF-263B-7AF7-A9D85BCB4B6B">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>800DA6B3-251E-8606-8C4F-38D8701EE5AF</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5FDB39F7-8C14-6822-7294-19FB93647E95</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="METRIC OWNER EMAIL ADDR" id="AB462EAA-9CD9-9C9C-4391-E4FBBDFE025D">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>72F340AB-4038-4A80-6936-74B3BF29D5C6</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5FDB39F7-8C14-6822-7294-19FB93647E95</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="METRIC AGGREGATION LVL" id="3C93F038-A480-CF1E-9FB3-5F96EEBD30E3">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>EFB4E9B7-A130-7E96-62AA-DD46EC1140A1</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>468F3080-A2E5-A0CB-D4B2-D08ACF738A70</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="METRIC SOURCE" id="2E342EAB-D36A-F7FF-A6EF-B204D7D3CA72">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>906C4D08-D2B0-3E2E-01AD-2E9D45F47B0E</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF0E04F1-7F65-0456-2218-B5C3C4D87450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="METRIC LOGIC" id="239E5D5E-142D-4F75-23BB-383E9E82EA55">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>96F17B7A-F8B1-3275-4F4A-780AEA435D04</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BA4D766E-15AA-1EA9-3185-2144D90F3102</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="METRIC RPT FORMAT" id="D9525DCC-79BA-C199-075D-F448A5275E11">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>6544819E-B9F6-C565-8C9A-7FEA89CCDA24</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF0E04F1-7F65-0456-2218-B5C3C4D87450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="METRIC RPT UNIT" id="4DCF42BF-3BC1-8F3D-CD3B-31A538F24C00">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>F841869B-6175-7BC3-B4AB-6C8A2A77E56E</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF0E04F1-7F65-0456-2218-B5C3C4D87450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="METRIC DECIMAL PRECISION" id="EAE815E0-D2F7-77A6-BD79-490E3D9F60CB">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>EB1CD2D5-B5A7-1C58-3E79-B7C01D0806EB</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF0E04F1-7F65-0456-2218-B5C3C4D87450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INSIGHT LINK" id="0BAD8F1D-A7CD-8073-99F5-F19AEBCA6BB4">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>A3EB833B-F7DF-88C3-6A47-ABC452FD5F4B</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CB545BA6-9397-6F24-FEA2-8DF7ADEDF005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RPT DETAIL LINK" id="1B3D0518-1588-1234-6C84-E770AA934147">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>5E242981-074D-0358-34A6-5D0CE27EA9B5</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CB545BA6-9397-6F24-FEA2-8DF7ADEDF005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="METRIC AUTOMATED FLAG" id="2A022331-BEF2-793A-8525-87D5DEB276A5">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>CA3DF13C-DE6F-9E49-1411-D94D40B9F328</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>68652267-A034-CA6A-A4AE-39A22AE98B36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BANNER IND" id="FB7207BE-5085-DCE4-86BB-348B43DD5A74">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>A1DDAF96-FB35-9590-428C-839566875B9F</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>468168B6-151C-EC16-9747-EB434D009B45</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SORT ORDER" id="6E7D0CD8-8A5A-5354-C128-9E1E70EE23E5">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>CC809847-EDFE-1AE2-BFB0-87D0AF2AAB34</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F35BBAD6-DFA1-A0C7-46C7-C5DD916EC7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OIF FLAG" id="701F79BE-643D-EB87-9CBD-187E29AF9C82">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>8E2EE177-0181-6523-334D-CBCE771111C6</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>68652267-A034-CA6A-A4AE-39A22AE98B36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TECH FLAG" id="1F7EAAAF-7AE5-7AA3-8297-75EC38120B6F">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>EDD56E36-240C-9A91-F8EA-CA24A131C26A</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>68652267-A034-CA6A-A4AE-39A22AE98B36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRIORITY CD" id="C777C9FC-FC0B-68CF-943F-DCDA3D52E1BE">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>BEA2EC16-C001-21EE-D7E1-D66D08890734</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF0E04F1-7F65-0456-2218-B5C3C4D87450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRIORITY GROUP" id="BBA95599-D337-6F9C-A651-D31CC564EC60">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>7FD5DDFB-186D-349D-A85C-71EA7C9FEFAF</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF0E04F1-7F65-0456-2218-B5C3C4D87450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRIORITY SORT ORDER" id="5607F81C-32BC-B7FA-276F-7B48C1A9B883">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>27C0A6F1-C0C8-5266-6C60-8FED1A88E15F</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF0E04F1-7F65-0456-2218-B5C3C4D87450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DISPLAY FLAG" id="AF8B4A12-AF5E-F1F6-5535-B75DB49EB81E">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>86AB110C-D72A-514C-EBB5-214EA786790E</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>68652267-A034-CA6A-A4AE-39A22AE98B36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DISPLAY NAME" id="C07E96AC-9D03-0687-D51D-99264856AEFB">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>9DAD9A34-AD05-BDC5-F3FA-DCA8EAEC9788</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>468F3080-A2E5-A0CB-D4B2-D08ACF738A70</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATTRIB 01" id="7C285BD4-EE63-6F7C-C95E-E8E2FE9D66B3">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>4ED184A1-85E6-0F91-BE70-487426A6F168</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BA4D766E-15AA-1EA9-3185-2144D90F3102</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATTRIB 02" id="025B15CF-1945-E715-7975-DC4F9977A874">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>56596DC7-0EB1-E4EE-009D-2388E6ABA388</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BA4D766E-15AA-1EA9-3185-2144D90F3102</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATTRIB 03" id="2E6E026C-CF37-46C5-ECE2-54D0DC1E3E1B">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>47DFD242-BBB1-24F9-A155-9F898465011C</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BA4D766E-15AA-1EA9-3185-2144D90F3102</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATTRIB 04" id="C030212B-FA6D-08FA-BACB-989E87E37112">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>467E4362-0108-CD31-E0BD-FE0F616E0356</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BA4D766E-15AA-1EA9-3185-2144D90F3102</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3126EE1-B764-F681-7C88-FA8757DD7B5B" name="DW METRIC pk">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>2427A711-E347-D14D-EC5D-CD3804643949</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DE2BB281-880B-E465-DDF3-02961FF5B8BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

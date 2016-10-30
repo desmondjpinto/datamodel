@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="237C69A8-6EC0-A1B0-28CA-BFB1523A1824" name="test view">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<commentInRDBMS>This is a test view </commentInRDBMS>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>FA178CB9-38BC-A019-B353-8FEF8A96BA0F</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL>select tname , tabtype  from tab</userDefinedSQL>
+<viewType>EntityView</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="tname" id="BFE294B3-7111-3C0A-6BBA-B2B5D5D87F6A">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>tname</alias>
+<dataType>UNKNOWN</dataType>
+<expression>tname</expression>
+<reference>false</reference>
+<viewID>237C69A8-6EC0-A1B0-28CA-BFB1523A1824</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="tabtype" id="59FA1A87-EB3E-BBF6-6B46-108CEBFADA30">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>tabtype</alias>
+<dataType>UNKNOWN</dataType>
+<expression>tabtype</expression>
+<reference>false</reference>
+<viewID>237C69A8-6EC0-A1B0-28CA-BFB1523A1824</viewID>
+</viewElement>
+</viewElements>
+</EntityView>

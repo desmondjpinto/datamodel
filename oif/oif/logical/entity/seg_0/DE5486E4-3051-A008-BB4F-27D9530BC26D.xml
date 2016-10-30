@@ -1,0 +1,200 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE5486E4-3051-A008-BB4F-27D9530BC26D" name="DIM REGION">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<commentInRDBMS>High level geographical regions, we cloned this table from </commentInRDBMS>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>891B6D14-6F63-252B-007C-0FB95E69FA3C</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="REGION KEY" id="FCD29908-33F0-B0C5-513F-89FDC0B7F59A">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>7046EB3F-6CE0-EBAE-E35F-7ABC337CD937</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F35BBAD6-DFA1-A0C7-46C7-C5DD916EC7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGION ID" id="912C9E05-F01D-FCEF-1633-41C085EA702D">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>11F4B8FF-333B-F7CA-5ED4-59FD3F6360A6</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F35BBAD6-DFA1-A0C7-46C7-C5DD916EC7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGION NAME" id="3EF346DC-9A93-0C71-867A-2B85C9B2E4B4">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>7B0B32C1-794C-A3B3-0480-0940FA7ED31C</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5FDB39F7-8C14-6822-7294-19FB93647E95</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGION ISO CODE" id="7435ACF4-8DDF-7DE6-A0CA-8FB9E7D9A743">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>C2CF8134-E740-B3B4-B566-39B2248CC94B</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5EBBC8F4-3325-3847-0F45-748B657D3E29</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLASSIFICATION TIER1" id="3E07D6C8-CD35-E71F-0613-8E307F0F1B93">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>ED4B7C66-4105-316C-D31E-CCF3182A84D0</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5FDB39F7-8C14-6822-7294-19FB93647E95</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLASSIFICATION TIER2" id="94B4A412-FD5B-1267-D002-24072506533E">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>6DA201C4-7C95-033A-75ED-C9EB29C88BFD</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5FDB39F7-8C14-6822-7294-19FB93647E95</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMERGING DEVELOPED" id="41A586AB-ED51-FAE1-AB13-E6C533316217">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>08D3F951-2C9A-C7A0-3C4C-30C7C6143DCD</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>D775E8F1-A832-08EC-C614-FE1ED3D25FD7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUDIT INS KEY" id="51A53604-5E88-7B75-F381-12DE7FC6CC62">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>8DACCD0A-65DB-5BF0-6EF0-ADC84A2CF6B8</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F35BBAD6-DFA1-A0C7-46C7-C5DD916EC7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUDIT INS DATE" id="7E38FA87-9FCA-FD76-D59D-E70367F03799">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>0C233C77-9026-44E5-DB0A-188F1ECA87C0</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>93AD977B-2ED9-4988-A569-98E7DA8E9563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUDIT UPD KEY" id="91B5F968-8EC6-98B8-C08F-C2CFDDA381C4">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>3CB1D092-A0DE-2986-108C-EB6BF8773478</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F35BBAD6-DFA1-A0C7-46C7-C5DD916EC7C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUDIT UPD DATE" id="2B902BAA-2FC9-EE43-46E2-D1C702C0AAEC">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>224DA634-B51B-4DE2-00DF-4077CB294DF0</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>93AD977B-2ED9-4988-A569-98E7DA8E9563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLASSIFICATION TIER3" id="6FA877C4-8BB7-BEBD-9B2C-94A079325DF6">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>A51ABDFE-128F-C2E5-164D-32D213607B53</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5FDB39F7-8C14-6822-7294-19FB93647E95</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4AAC7F51-D080-E3AB-D26F-C493DFA9A456" name="DIM REGION pk">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>2119EB14-570F-46F3-AED0-F87B9F3FADF8</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FCD29908-33F0-B0C5-513F-89FDC0B7F59A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

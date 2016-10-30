@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="Untitled_1_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_1000" id="1E549014-8DCA-46C7-4B14-8811EB8BAF7A">
+         <createdBy>dpinto</createdBy>
+         <createdTime>2016-10-29 22:07:30 UTC</createdTime>
+         <ownerDesignName>oif</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>1000</dataTypeSize>
+         <fileName>Untitled_1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_1" id="468168B6-151C-EC16-9747-EB434D009B45">
+         <createdBy>dpinto</createdBy>
+         <createdTime>2016-10-29 22:07:30 UTC</createdTime>
+         <ownerDesignName>oif</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>1</dataTypeSize>
+         <fileName>Untitled_1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="468F3080-A2E5-A0CB-D4B2-D08ACF738A70">
+         <createdBy>dpinto</createdBy>
+         <createdTime>2016-10-29 22:07:30 UTC</createdTime>
+         <ownerDesignName>oif</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>50</dataTypeSize>
+         <fileName>Untitled_1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_10" id="5EBBC8F4-3325-3847-0F45-748B657D3E29">
+         <createdBy>dpinto</createdBy>
+         <createdTime>2016-10-29 22:07:30 UTC</createdTime>
+         <ownerDesignName>oif</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>10</dataTypeSize>
+         <fileName>Untitled_1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="5FDB39F7-8C14-6822-7294-19FB93647E95">
+         <createdBy>dpinto</createdBy>
+         <createdTime>2016-10-29 22:07:30 UTC</createdTime>
+         <ownerDesignName>oif</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>100</dataTypeSize>
+         <fileName>Untitled_1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_3" id="68652267-A034-CA6A-A4AE-39A22AE98B36">
+         <createdBy>dpinto</createdBy>
+         <createdTime>2016-10-29 22:07:30 UTC</createdTime>
+         <ownerDesignName>oif</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>3</dataTypeSize>
+         <fileName>Untitled_1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_120" id="7502F68F-B1BC-F2E0-B09A-2DF1592439D2">
+         <createdBy>dpinto</createdBy>
+         <createdTime>2016-10-29 22:07:30 UTC</createdTime>
+         <ownerDesignName>oif</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>120</dataTypeSize>
+         <fileName>Untitled_1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="93AD977B-2ED9-4988-A569-98E7DA8E9563">
+         <createdBy>dpinto</createdBy>
+         <createdTime>2016-10-29 22:07:30 UTC</createdTime>
+         <ownerDesignName>oif</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Untitled_1_Domains</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_25" id="AF0E04F1-7F65-0456-2218-B5C3C4D87450">
+         <createdBy>dpinto</createdBy>
+         <createdTime>2016-10-29 22:07:30 UTC</createdTime>
+         <ownerDesignName>oif</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>25</dataTypeSize>
+         <fileName>Untitled_1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_250" id="BA4D766E-15AA-1EA9-3185-2144D90F3102">
+         <createdBy>dpinto</createdBy>
+         <createdTime>2016-10-29 22:07:30 UTC</createdTime>
+         <ownerDesignName>oif</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>250</dataTypeSize>
+         <fileName>Untitled_1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_2000" id="CB545BA6-9397-6F24-FEA2-8DF7ADEDF005">
+         <createdBy>dpinto</createdBy>
+         <createdTime>2016-10-29 22:07:30 UTC</createdTime>
+         <ownerDesignName>oif</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>2000</dataTypeSize>
+         <fileName>Untitled_1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1" id="D775E8F1-A832-08EC-C614-FE1ED3D25FD7">
+         <createdBy>dpinto</createdBy>
+         <createdTime>2016-10-29 22:07:30 UTC</createdTime>
+         <ownerDesignName>oif</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>1</dataTypeSize>
+         <fileName>Untitled_1_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_30" id="DC86B37D-3E46-15FB-0906-D6E139DF85B0">
+         <createdBy>dpinto</createdBy>
+         <createdTime>2016-10-29 22:07:30 UTC</createdTime>
+         <ownerDesignName>oif</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>30</dataTypeSize>
+         <fileName>Untitled_1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_0_0_0" id="F35BBAD6-DFA1-A0C7-46C7-C5DD916EC7C3">
+         <createdBy>dpinto</createdBy>
+         <createdTime>2016-10-29 22:07:30 UTC</createdTime>
+         <ownerDesignName>oif</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Untitled_1_Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_38_0_0" id="FA697EC8-490D-E65C-9610-EDD9CA9983D1">
+         <createdBy>dpinto</createdBy>
+         <createdTime>2016-10-29 22:07:30 UTC</createdTime>
+         <ownerDesignName>oif</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>38</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+         <fileName>Untitled_1_Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

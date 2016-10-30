@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FACT_OIF_METRIC_KEY_LINK" directorySegmentName="seg_0" id="A2704015-DF41-A31E-74A7-42C5DE7BB108">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>8C2AB460-A2B3-1F96-58E4-C6507412E1B6</importedID>
+<engineerTo>
+<item key="B0BB6E6E-6D73-9BC8-27D2-79938949512C" value="true"/>
+</engineerTo>
+<sourcePk>CC08B684-6AA6-0EDF-E20A-837B4F6B7CA4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>22AAF801-3809-E303-71F5-AFF987FDC109</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1D64FA58-4741-CBEB-F564-98AE79489022</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

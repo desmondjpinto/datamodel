@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="OIFDATA" directorySegmentName="seg_0" id="97D71783-D083-2DB6-9693-9E95D29CCA8A">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>CAD52D10-8801-29EF-53C2-0D66A2ACE235</importedID>
+</SchemaObject>

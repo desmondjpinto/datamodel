@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="82806B6B-5634-5076-5071-16C70D80D9B3" containerWithKeyObject="6137DB80-70D3-AF37-B506-9EC385F1CE41" localFKIndex="E748557D-3FF3-D0F8-95EB-DE505F7A41B3" name="FACT_OIF_ORG_KEY_LINK">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>2B6669EE-B3AE-A122-E642-E9EF09DA4B4B</importedID>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1013712C-FE10-C7C9-7997-18AE8C9A0357</referredTableID>
+<keyObject>0DC54379-94A5-6DF0-AB3A-4ECB970BF3FE</keyObject>
+<referredKeyID>0DC54379-94A5-6DF0-AB3A-4ECB970BF3FE</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

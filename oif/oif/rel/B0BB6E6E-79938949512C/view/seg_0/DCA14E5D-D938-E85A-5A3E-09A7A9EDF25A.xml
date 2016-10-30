@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="DCA14E5D-D938-E85A-5A3E-09A7A9EDF25A" name="test_view">
+<sourceDDLFile>oif_data_model_create (5).sql</sourceDDLFile>
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<commentInRDBMS>This is a test view </commentInRDBMS>
+<ownerDesignName>oif</ownerDesignName>
+<importedID>F8A31B68-A5B5-535B-2500-CC5AF50EB486</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL>select tname , tabtype  from tab</userDefinedSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="tname" id="080ED75E-1C17-E8FC-8135-FF1A959E8129">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>tname</alias>
+<dataType>UNKNOWN</dataType>
+<expression>tname</expression>
+<reference>false</reference>
+<viewID>DCA14E5D-D938-E85A-5A3E-09A7A9EDF25A</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="tabtype" id="57D9804E-0303-3421-53FB-50398BD6CB91">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:07:30 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>tabtype</alias>
+<dataType>UNKNOWN</dataType>
+<expression>tabtype</expression>
+<reference>false</reference>
+<viewID>DCA14E5D-D938-E85A-5A3E-09A7A9EDF25A</viewID>
+</viewElement>
+</viewElements>
+</TableView>

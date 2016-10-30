@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="10E46747-D1FB-A7E3-7305-09FBAC79B457">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:06:59 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="oif" id="68657B5A-46FD-09B3-7E75-ACE9D5E25F8D" version="3.5">
+<createdBy>dpinto</createdBy>
+<createdTime>2016-10-29 22:06:59 UTC</createdTime>
+<ownerDesignName>oif</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>68657B5A-46FD-09B3-7E75-ACE9D5E25F8D</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="10E78AAA-7FE1-6564-2193-04CE9B83DF85">
+<designStoragePath>/Users/dpinto/Documents/OIF_Data_Model</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
